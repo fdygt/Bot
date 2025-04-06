@@ -1,0 +1,74 @@
+{
+    "token": "M4ODMxMTg4MTE0MjMyMw.G5rB-N.Vulrgbqr8l-3R_dOODIL0e0vlC2XxaK404Pz4o",
+    "guild_id": "1318806349118963722",
+    "admin_id": "1035189920488235120",
+    "connection_timeout": 30,
+    "max_retry_attempts": 5,
+    "base_retry_delay": 5,
+    "id_history_buy": "1318806351228698682", 
+    "id_live_stock": "1318806350310146114",
+    "id_log_purch": "1318806351228698683",
+    "id_donation_log": "1318806351228698680",
+
+    "channels": {
+        "welcome": "1318806349919944837",
+        "ticket_category": "1318806349919944842",
+        "giveaway": "1318806350310146109", 
+        "leveling": "1346082093838372966",
+        "reminder": "1318806350310146118",
+        "music": "1346118937263214704",
+        "logs": "1346119002862391326"
+    },
+
+    "roles": {
+        "support": "1318806349118963730",
+        "giveaway_manager": "1318806349118963729",
+        "dj": "1346120498072780840",
+        "admin": "1346120330254483527",
+        "moderator": "1318806349118963729"
+    },
+
+    "cooldowns": {
+        "default": 3,
+        "shop": 5,
+        "buy": 3,
+        "sell": 3,
+        "daily": 86400,
+        "weekly": 604800
+    },
+
+    "permissions": {
+        "admin": ["all"],
+        "moderator": ["kick", "ban", "mute", "warn"],
+        "support": ["ticket", "help"],
+        "dj": ["play", "skip", "queue"],
+        "giveaway_manager": ["giveaway", "reroll"]
+    },
+
+    "rate_limits": {
+        "global": [5, 5],
+        "user": [3, 5],
+        "channel": [10, 5]
+    },
+
+    "automod": {
+        "enabled": true,
+        "spam_threshold": 5,
+        "spam_timeframe": 5,
+        "caps_threshold": 0.7,
+        "caps_min_length": 10,
+        "banned_words": [],
+        "banned_wildcards": [],
+        "warn_threshold": 3,
+        "mute_duration": 10,
+        "ignored_channels": [
+            "1318806349919944837",
+            "1346119002862391326"
+        ],
+        "ignored_roles": [
+            "1346120330254483527",
+            "1318806349118963729"
+        ],
+        "log_channel": "1346119002862391326"
+    }
+}
